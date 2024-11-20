@@ -1,6 +1,6 @@
 try:
     n=int(input("Введите количество строк: "))
-    country_city = [input()]
+    country_city = [input() for _ in range(n)]
     if n>0:
         def f(n, country_city):
             dict = {}
